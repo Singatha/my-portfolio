@@ -1,0 +1,30 @@
+@import "base";
+
+.home__header, .about__header, .projects__header, .project__header, .contacts__header {
+    font-family: $font-family;
+    text-align: center;
+}
+
+.home__text, .about__text, .project__text, .projects__text, .contacts__text {
+    font-family: $font-family;
+    text-align: center;
+}
+
+.project__header-secondary{
+    font-family: $font-family;
+}
+
+// .home {
+//     // height: 100vh;
+// }
+
+
+
+
+
+
+
+.contacts__footer {
+    background-color: $bg-secondary-color;
+    padding: 50px;
+}
