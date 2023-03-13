@@ -1,11 +1,11 @@
 @import "base";
 
-.home__header, .about__header, .projects__header, .project__header, .contacts__header {
+.hero__header, .about__header, .projects__header, .project__header, .contacts__header {
     font-family: $font-family;
     text-align: center;
 }
 
-.home__text, .about__text, .project__text, .projects__text, .contacts__text {
+.hero__text, .about__text, .project__text, .projects__text, .contacts__text {
     font-family: $font-family;
     text-align: center;
 }

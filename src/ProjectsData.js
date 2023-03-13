@@ -8,7 +8,7 @@ export const PROJECTS = [
         imageURL: wireframe1,
         urlName: "project_1",
         projectDescription: "Lorem ipsum dolor sit amet consectetur Quis curabitur cras faucibus nunc id habitant vel cras.",
-        projectTools: [],
+        projectTools: ["html5", "css3", "javascript"],
         websiteLink: "https://w3schools.com",
         codeLink: "https://w3schools.com"
     },
@@ -17,7 +17,7 @@ export const PROJECTS = [
         imageURL: wireframe2,
         urlName: "project_2",
         projectDescription: "Lorem ipsum dolor sit amet consectetur Quis curabitur cras faucibus nunc id habitant vel cras.",
-        projectTools: [],
+        projectTools: ["react", "python"],
         websiteLink: "https://w3schools.com",
         codeLink: "https://w3schools.com"
     },
@@ -26,7 +26,7 @@ export const PROJECTS = [
         imageURL: wireframe3,
         urlName: "project_3",
         projectDescription: "Lorem ipsum dolor sit amet consectetur Quis curabitur cras faucibus nunc id habitant vel cras.",
-        projectTools: [],
+        projectTools: ["git", "github", "vscode"],
         websiteLink: "https://w3schools.com",
         codeLink: "https://w3schools.com"
     }

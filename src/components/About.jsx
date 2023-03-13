@@ -1,11 +1,11 @@
-import { ReactComponent as HTML5Icon } from '../assets/images/icons/html5.svg';
-import { ReactComponent as CSS3Icon } from '../assets/images/icons/css3.svg';
-import { ReactComponent as JavascriptIcon } from '../assets/images/icons/javascript.svg';
-import { ReactComponent as ReactIcon } from '../assets/images/icons/react.svg';
-import { ReactComponent as PythonIcon } from '../assets/images/icons/python.svg';
-import { ReactComponent as GitIcon } from '../assets/images/icons/git.svg';
-import { ReactComponent as GithubIcon } from '../assets/images/icons/github.svg';
-import { ReactComponent as VSCodeIcon } from '../assets/images/icons/vscode.svg';
+import { ReactComponent as HTML5Icon } from '../assets/images/devicons/html5.svg';
+import { ReactComponent as CSS3Icon } from '../assets/images/devicons/css3.svg';
+import { ReactComponent as JavascriptIcon } from '../assets/images/devicons/javascript.svg';
+import { ReactComponent as ReactIcon } from '../assets/images/devicons/react.svg';
+import { ReactComponent as PythonIcon } from '../assets/images/devicons/python.svg';
+import { ReactComponent as GitIcon } from '../assets/images/devicons/git.svg';
+import { ReactComponent as GithubIcon } from '../assets/images/devicons/github.svg';
+import { ReactComponent as VSCodeIcon } from '../assets/images/devicons/vscode.svg';
 
 const About = () => {
     return (
