@@ -11,4 +11,5 @@ export default defineConfig({
     }
   },
   plugins: [svgr(), react()],
+  base: "/my-portfolio/",
 })
