@@ -10,7 +10,7 @@ const Gallery = ({ dispatch }) => {
     }
 
     return (
-        <Carousel>
+        <Carousel className="projects__carousel" >
             {
                 PROJECTS.map((project, index) => {
                     return (
@@ -21,9 +21,7 @@ const Gallery = ({ dispatch }) => {
                                 alt="First slide"
                             />
                             <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                <Link to={`/${project.urlName}`} onClick={() => handleClick(project)}>View More</Link>
+                                <Link className="projects__link" to={`/projects/${project.urlName}`} onClick={() => handleClick(project)}>View More</Link>
                             </Carousel.Caption>
                         </Carousel.Item>
                     )

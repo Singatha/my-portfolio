@@ -10,21 +10,21 @@ import { ReactComponent as VSCodeIcon } from '../assets/images/devicons/vscode.s
 export const ToolsIcon = ({tool}) => {
     switch(tool){
         case 'html5':
-            return <HTML5Icon />
+            return <HTML5Icon className="project__svg"/>
         case 'css3':
-            return <CSS3Icon />
+            return <CSS3Icon className="project__svg"/>
         case 'javascript':
-            return <JavascriptIcon />
+            return <JavascriptIcon className="project__svg"/>
         case 'react':
-            return <ReactIcon />
+            return <ReactIcon className="project__svg"/>
         case 'python':
-            return <PythonIcon />
+            return <PythonIcon className="project__svg"/>
         case 'git':
-            return <GitIcon />
+            return <GitIcon className="project__svg"/>
         case 'github':
-            return <GithubIcon />
+            return <GithubIcon className="project__svg"/>
         case 'vscode':
-            return <VSCodeIcon />
+            return <VSCodeIcon className="project__svg"/>
         default:
             return <p>no icon</p>
     }
