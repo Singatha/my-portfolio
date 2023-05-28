@@ -1,8 +1,10 @@
-import { connect } from "react-redux";
+import { useSelector } from "react-redux";
 import { ToolsIcon } from "./ToolsIcon";
 import { Link } from "react-router-dom";
 
-const Project = ({ project }) => {
+const Project = () => {
+    const project = useSelector((state) => state.project.project)
+
     return (
         <div className="project">
             <h1 className="project__header">{project.projectName}</h1>
@@ -28,8 +30,4 @@ const Project = ({ project }) => {
     )
 }
 
-const mapStateToProps = state => {
-    return state;
-};
-
-export default connect(mapStateToProps)(Project);
+export default Project;
